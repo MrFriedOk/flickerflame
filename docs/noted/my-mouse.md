@@ -7,7 +7,7 @@
 duh
 
 ### Side buttons
-The current plan does not involve side buttons as i do not use them as much but if i am already thinking of a similar sized mouse, ideally way lighter, could i invest in a sort of [modular side panel?](../ideas/README)
+The current plan does not involve side buttons as i do not use them as much but if i am already thinking of a similar sized mouse, ideally way lighter, could i invest in a sort of [modular side panel?](../ideas/)
 
 ## What is bad about it?
 The mouse isn't bad but for osu! and in general there are some things i would also like to change or leave out for the project. This mouse is literally advertised as an MMO/MOBA mouse, it *works* for osu! but "works" is relative. 
