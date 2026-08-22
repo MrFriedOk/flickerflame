@@ -1,2 +1,6 @@
 # flickerflame
-osu optimization attempt
+## What is this?
+haha no.. seriously, what is it?
+
+## What isn't this?
+a
