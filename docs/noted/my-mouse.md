@@ -4,10 +4,19 @@
 ## What is good about it?
 
 ### RGB!!!
-duh
+If i truly want to make this project a thing, it has to be customizable beyond "this mouse is built by me and exactly what i want", it's gotta have lighting.
 
 ### Side buttons
-The current plan does not involve side buttons as i do not use them as much but if i am already thinking of a similar sized mouse, ideally way lighter, could i invest in a sort of [modular side panel?](../ideas/)
+The current plan does not involve 12 side buttons as i do not use them as much but if i am already thinking of a similar sized mouse, ideally way lighter, could i invest in a sort of [modular side panel?](../ideas/)
+
+### PTFE pads
+From my experience, this just makes the mouse so much more glidy and it works well with many materials. Will test this against more surfaces though.
+
+### Polling rate
+Most top osu! players using mouse use 1khz polling rate, my mouse is 1khz. i have had no issues with 1khz but i will look into the benefits (and drawback) of 8khz. the more the merrier? 
+
+### Optical sensor
+This is a no-brainer in 2026, i am not using laser. What i will say is that i have definitely seen the issues that optical has in terms of surface but this is not an issue if i have a decent mouse pad. 
 
 ## What is bad about it?
 The mouse isn't bad but for osu! and in general there are some things i would also like to change or leave out for the project. This mouse is literally advertised as an MMO/MOBA mouse, it *works* for osu! but "works" is relative. 
