@@ -1,4 +1,5 @@
 # Corsair SCIMITAR ELITE WIRELESS SE MMO Gaming Mouse – White
+(mostly) everything said here is subjective. The only objective stuff here is weight or dimensions or material. i have made zero physical changes to this mouse. I will later need to (unfortunately) use windows to access the drivers for the mouse which i have done before.
 
 ## What is good about it?
 
