@@ -10,7 +10,6 @@ This is allegedly where i'd put all the document stuff. i will record anything i
 ## What do i have?
 
 ### Experience
-I have little CADing experience but i daily drive arch btw and have access to tools.  I shouldnt try making a CAD model expecting the finished product.
 
 
 ## What do i need? 
