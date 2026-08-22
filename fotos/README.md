@@ -1,0 +1,1 @@
+photos but spelled wrong
