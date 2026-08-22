@@ -21,6 +21,8 @@ I still need to find what makes this typa thing *good*. What do professionals sa
 
 
 ### Experience
+Maybe people are born smarter but nobody is born already knowing how to do everything. I need experience with the tools i have and will need to use for this project.
+
 #### KiCad
 I need to use KiCad, no way around it. do i know the first thing about electronic stuff? well.. yes but no. I am not going to jump straight into diagraming stuff and i will not attempt to build the PCB frist try. I should learn how to use it without the pressure of needing to make a perfect product. 
 
