@@ -15,7 +15,7 @@ These apply to all variants
 | RP2354B | QFN-80  | 10 x 10           | Stacked 2MB        | 48        | 8               | 24           |
 
 ## Difference in Variants
-RP2350 vs. RP2354 (A or B variant), the RP2354 has internal flash memory, potnetially removing the need for an external chip to hold flash (unless  you want like 4k bad apple or something). the RP2350 does not have internal flash memory, this would be the ideal choice if i knew i could not fit everything in 2MB. Do i need more than 2MB?
+RP2350 vs. RP2354 (A or B variant), the RP2354 has internal flash memory, potentially removing the need for an external chip to hold flash (unless  you want like 4k bad apple or something). the RP2350 does not have internal flash memory, this would be the ideal choice if i knew i could not fit everything in 2MB. Do i need more than 2MB?
 
 RP235XA vs. RP235XB (0 or 4 variant), either MCU's A variant uses the 60QFN package. The B variant uses the 80QFN package. 80QFN offers 48 GPIO, 60QFN offers 30. How much GPIO do i need? 
 
