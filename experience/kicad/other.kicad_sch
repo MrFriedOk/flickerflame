@@ -1,0 +1,25 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "09aac3ab-7f09-49aa-93e9-bd607d98bda1")
+	(paper "A4")
+	(lib_symbols)
+	(text "keyboard (page 2/2)"
+		(exclude_from_sim no)
+		(at 23.622 14.478 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "b38af494-1251-4329-98ea-82231c5b8ea2")
+	)
+	(sheet_instances
+		(path "/"
+			(page "3")
+		)
+	)
+)
