@@ -10,4 +10,4 @@ The buck converter needs to do these things:
 This is the current buck converter I am using. A formula is given to determine appropriate resistor ohmage to get the desired voltage output.
 
 The formula can be expressed like this, 
-Voltage output is equal to voltage reference (the datasheet shows this as .596)
+Voltage output is equal to voltage reference (the datasheet shows this as .596) multiplied by resistor 2 (100k is a recommended value) divided by resistor 3 plus one.
