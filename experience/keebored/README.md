@@ -12,6 +12,9 @@ This is not going to be a large keyboard, \[**determine dimensions**] it will fe
 ### Why Analog?
 See [this page](./switches/README.md). Analog provides more flexibility in terms of actuation.
 
+## Size
+In reality, even without knowing exact dimensions, the keys alone add an absurd amount of space relative to all of the components. There is going to be a *lot* of negative space. What can I do with it?
+
 ## Voltage Regulation
 I decided to use a buck converter as opposed to a traditional linear voltage regulator. I wanted to keep power consumption as efficient as possible, and with a buck converter, you get proper voltage with a tradeoff of noise. 
 
