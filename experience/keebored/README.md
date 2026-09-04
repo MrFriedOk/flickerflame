@@ -3,6 +3,7 @@
 My goal with this project is to familiarize myself with KiCAD and other CAD-ing tools so I can move towards building a mouse. Not only that, but I can *maybe* get a functional keyboard sort of thing to use to play osu! or something.
 ## Overview
 I would like the keyboard to have LED, how many I do not know but let's shoot for one ARGB per key, yeah?
+
 Overkill but I would like to use the RP2040, close MCU to the RP2350 (and its variants) that I plan to use for the mouse. This MCU has exactly enough ADC pins for my key layout.
 
 ## Key Layout
