@@ -4,3 +4,8 @@ Hall effect switches do not have any pins, no method of communication. Their pri
 
 ## Owlab Ti HE
 These switches (according to a few subreddits and product reviews) are well regarded for their sound, which is not as important to me as just having HE switches. 
+Biggest issue with these is that I can't find documentation for them.
+
+
+## GATERON KS-20 Magnetic White HE Switch Set
+I was able to find documentation on these switches, very helpful for making a custom board, I need to know dimensions.
