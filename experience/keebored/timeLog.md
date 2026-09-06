@@ -1,0 +1,9 @@
+Time logged working on project. Accurately measured starting 09/05/26
+
+| Notes         | Time   | Date     |
+| ------------- | ------ | -------- |
+| start         | ~2 hr  | 09/01/26 |
+|               | ~1 hr  | 09/02/26 |
+| new schematic | ~2 hr  | 09/03/26 |
+| route         | ~6 hr  | 09/04/26 |
+| reroute       | 14:00- | 09/05/26 |
