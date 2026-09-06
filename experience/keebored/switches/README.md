@@ -6,7 +6,7 @@ where the magnet would be to get good readings.
 ---
 ## Socket
 I need to find out more but any hall effect switch should just fit on a regular mechanical switch socket, minus the hole in the middle and the metal contacts.
-Using measurements from GATERON docs, I made a footprint in KiCAD with NPTH circle pads with 1.7mm diameter. Do note, the docs give 0.05 tolerance, make sure this measurement is accurate. Worst case, you just glue the switches in place :3 . 
+Using measurements from GATERON docs, I made a footprint in KiCAD using NPTH circle pads with 1.7mm diameter. Do note, the docs give 0.05 tolerance, make sure this measurement is accurate. Worst case, you just glue the switches in place :3 . 
 ### Notes
 Using any given HE switch, not custom, there will not be enough space for an HS or any electrical components really (besides led of course), I have moved the HS, caps and resistors behind the key with just the led in the front. HS alignment is not affected, but is it ok to just put an HS behind the board? Riskable's 
 

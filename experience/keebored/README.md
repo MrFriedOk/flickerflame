@@ -2,6 +2,13 @@
 ## Objective
 My goal with this project is to familiarize myself with KiCAD and other CAD-ing tools so I can move towards building a mouse. Not only that, but I can *maybe* get a functional keyboard sort of thing to use to play osu! or something.
 ## Overview
+A small, semi-portable USB C keyboard.
+### Key Features
+- 128x64 OLED display via I2C
+- Analog HE switches, directly to MCU ADC
+- RGB
+- ~55mm wide, ~95mm tall
+
 I would like the keyboard to have LED, how many I do not know but let's shoot for one ARGB per key, yeah?
 Overkill but I would like to use the RP2040, close MCU to the RP2350 (and its variants) that I plan to use for the mouse. This MCU has exactly enough ADC pins for my key layout.
 The keyboard will also feature a rotary encoder or similar for volume control.
@@ -14,19 +21,5 @@ See [this page](./switches/README.md). Analog provides more flexibility in terms
 
 ## Size
 In reality, even without knowing exact dimensions, the keys alone add an absurd amount of space relative to all of the components. There is going to be a *lot* of negative space. What can I do with it?
-
-## Voltage Regulation
-I decided to use a buck converter as opposed to a traditional linear voltage regulator. I wanted to keep power consumption as efficient as possible, and with a buck converter, you get proper voltage with a tradeoff of noise. 
-
-The buck converter needs to do these things:
-- Input 5V from USB
-- Output 3V3
-- Minimize noise
-
-### TPS54302
-This is the current buck converter I am using. A formula is given to determine appropriate resistor ohmage to get the desired voltage output.
-
-The formula can be expressed like this, 
-Voltage output is equal to voltage reference (the datasheet shows this as .596) multiplied by resistor 2 (100k is a recommended value) divided by resistor 3 plus one.
-
 ## Index
+[power](./power/README.md) 
