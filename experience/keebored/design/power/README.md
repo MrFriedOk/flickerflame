@@ -1,5 +1,6 @@
 ## Voltage Regulation
 I originally decided to use a buck converter as opposed to a traditional linear voltage regulator. I wanted to keep power consumption as efficient as possible, and with a buck converter, you get proper voltage with a tradeoff of noise. 
+**Design tip:** I do not necessarily need 5V close to LDO, keep this in mind with LED.
 
 The buck converter would need to do these things:
 - Input 5V from USB
