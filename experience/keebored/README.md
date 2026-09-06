@@ -16,7 +16,7 @@ What better to do with negative space left from the rotary encoder than to put a
 This is not going to be a large keyboard, \[**determine dimensions**] it will feature four keys in order from top to bottom and left to right, ESC, C, Z, X. These are literally the only keys I need for osu!
 
 ### Why Analog?
-See [this page](experience/keebored/design/switches/README.md). Analog provides more flexibility in terms of actuation.
+See [this page](experience/keebored/design/keys/README.md). Analog provides more flexibility in terms of actuation.
 
 ## Size
 In reality, even without knowing exact dimensions, the keys alone add an absurd amount of space relative to all of the components. There is going to be a *lot* of negative space. What can I do with it?
