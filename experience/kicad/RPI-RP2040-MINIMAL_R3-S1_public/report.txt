@@ -1,0 +1,153 @@
+Info: Processing symbol 'R5:RPI_COMPILED:generic_resc1005x35'.
+Info: Processing symbol 'D2:Diode_SMD:Nexperia_DSN1608-2_1.6x0.8mm'.
+Info: Processing symbol 'U1:RPI_COMPILED:onsemi_ncp1117st33t3g'.
+Info: Processing symbol 'C7:RPI_COMPILED:generic_capc1005x50'.
+Info: Processing symbol 'MH3:RPI_COMPILED:none_mh_npth_fd2p75mm_sm3p15mm_ko6mm'.
+Info: Processing symbol 'D1:LED_SMD:LED_0805_2012Metric'.
+Info: Processing symbol 'C8:RPI_COMPILED:generic_capc1005x50'.
+Info: Processing symbol 'R12:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R11:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'C9:RPI_COMPILED:generic_capc1005x50'.
+Info: Processing symbol 'C17:RPI_COMPILED:generic_capc2012x125'.
+Info: Processing symbol 'C10:RPI_COMPILED:generic_capc1005x50'.
+Info: Processing symbol 'R13:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'MH4:RPI_COMPILED:none_mh_npth_fd2p75mm_sm3p15mm_ko6mm'.
+Info: Processing symbol 'C11:RPI_COMPILED:generic_capc1005x50'.
+Info: Processing symbol 'R4:RPI_COMPILED:generic_resc1005x35'.
+Info: Processing symbol 'C16:RPI_COMPILED:generic_capc1005x50'.
+Info: Processing symbol 'C12:RPI_COMPILED:generic_capc1005x50'.
+Info: Processing symbol 'R1:RPI_COMPILED:generic_resc1005x35'.
+Info: Processing symbol 'R3:RPI_COMPILED:generic_resc1005x35'.
+Info: Processing symbol 'C13:RPI_COMPILED:generic_capc1005x50'.
+Info: Processing symbol 'C15:RPI_COMPILED:generic_capc1005x50'.
+Info: Processing symbol 'C14:RPI_COMPILED:generic_capc1005x50'.
+Info: Processing symbol 'R2:RPI_COMPILED:generic_resc1005x35'.
+Info: Processing symbol 'C6:RPI_COMPILED:generic_capc1005x50'.
+Info: Processing symbol 'J5:Connector_USB:USB_C_Receptacle_Molex_105450-0101'.
+Info: Processing symbol 'MH1:RPI_COMPILED:none_mh_npth_fd2p75mm_sm3p15mm_ko6mm'.
+Info: Processing symbol 'X1:RPI_COMPILED:generic_xtalcc320x250x80-4'.
+Info: Processing symbol 'C2:RPI_COMPILED:generic_capc1005x50'.
+Info: Processing symbol 'J4:RPI_COMPILED:samtec_tsw-118-07-l-d'.
+Info: Processing symbol 'U4:Package_TO_SOT_SMD:SOT-553'.
+Info: Processing symbol 'C3:RPI_COMPILED:generic_capc1005x50'.
+Info: Processing symbol 'MH2:RPI_COMPILED:none_mh_npth_fd2p75mm_sm3p15mm_ko6mm'.
+Info: Processing symbol 'U3:RPI_COMPILED:rpi_rp2040_vias'.
+Info: Processing symbol 'C4:RPI_COMPILED:generic_capc2012x125'.
+Info: Processing symbol 'J3:RPI_COMPILED:samtec_tsw-118-07-l-d'.
+Info: Processing symbol 'J2:RPI_COMPILED:samtec_tsw-102-07-g-s'.
+Info: Processing symbol 'C1:RPI_COMPILED:generic_capc2012x125'.
+Info: Processing symbol 'C5:RPI_COMPILED:generic_capc1005x50'.
+Info: Processing symbol 'U2:RPI_COMPILED:generic_soic127p790x195-8'.
+Update MH2 unit metadata.
+Remove MH3 footprint fields not in symbol.
+Add J5 (footprint 'Connector_USB:USB_C_Receptacle_Molex_105450-0101').
+Remove R1 footprint fields not in symbol.
+Update R1 fields.
+Update MH1 fields.
+Update R4 fields.
+Update MH4 unit metadata.
+Remove MH1 footprint fields not in symbol.
+Remove MH4 footprint fields not in symbol.
+Remove MH2 footprint fields not in symbol.
+Update MH4 fields.
+Update MH1 unit metadata.
+Update MH3 fields.
+Update MH2 fields.
+Update MH3 unit metadata.
+Add R13 (footprint 'Resistor_SMD:R_0402_1005Metric').
+Remove unused footprint J1.
+Update X1 unit metadata.
+Remove X1 footprint fields not in symbol.
+Update X1 fields.
+Add U4 (footprint 'Package_TO_SOT_SMD:SOT-553').
+Update U3 unit metadata.
+Remove U3 footprint fields not in symbol.
+Update U3 fields.
+Update U2 unit metadata.
+Remove U2 footprint fields not in symbol.
+Update U2 fields.
+Update U1 unit metadata.
+Reconnect U1 pin 3 from VBUS to Net-(D2-K).
+Remove U1 footprint fields not in symbol.
+Update U1 fields.
+Update R1 unit metadata.
+Add R12 (footprint 'Resistor_SMD:R_0402_1005Metric').
+Add R11 (footprint 'Resistor_SMD:R_0402_1005Metric').
+Update R5 unit metadata.
+Remove R5 footprint fields not in symbol.
+Update R5 fields.
+Update R4 unit metadata.
+Remove R4 footprint fields not in symbol.
+Update J2 fields.
+Update R3 unit metadata.
+Remove R3 footprint fields not in symbol.
+Update R3 fields.
+Update R2 unit metadata.
+Remove R2 footprint fields not in symbol.
+Update R2 fields.
+Remove C5 footprint fields not in symbol.
+Remove C10 footprint fields not in symbol.
+Update C10 fields.
+Update C9 unit metadata.
+Remove C9 footprint fields not in symbol.
+Update C9 fields.
+Update C8 unit metadata.
+Remove C8 footprint fields not in symbol.
+Update C8 fields.
+Update C7 unit metadata.
+Remove C7 footprint fields not in symbol.
+Update C7 fields.
+Update C6 unit metadata.
+Remove C6 footprint fields not in symbol.
+Update C6 fields.
+Update C5 unit metadata.
+Update C10 unit metadata.
+Update C5 fields.
+Update C4 unit metadata.
+Remove C4 footprint fields not in symbol.
+Update C4 fields.
+Update C3 unit metadata.
+Remove C3 footprint fields not in symbol.
+Update C3 fields.
+Update C2 unit metadata.
+Remove C2 footprint fields not in symbol.
+Update C2 fields.
+Update C1 unit metadata.
+Reconnect C1 pin 1 from VBUS to Net-(D2-K).
+Add net Net-(D2-K).
+Remove C1 footprint fields not in symbol.
+Update C1 fields.
+Update C15 unit metadata.
+Remove J4 footprint fields not in symbol.
+Update J4 fields.
+Update J3 unit metadata.
+Remove J3 footprint fields not in symbol.
+Update J3 fields.
+Update J2 unit metadata.
+Remove J2 footprint fields not in symbol.
+Add D2 (footprint 'Diode_SMD:Nexperia_DSN1608-2_1.6x0.8mm').
+Add D1 (footprint 'LED_SMD:LED_0805_2012Metric').
+Update C17 unit metadata.
+Remove C17 footprint fields not in symbol.
+Update C17 fields.
+Update C16 unit metadata.
+Remove C16 footprint fields not in symbol.
+Update C16 fields.
+Update J4 unit metadata.
+Remove C15 footprint fields not in symbol.
+Update C15 fields.
+Update C14 unit metadata.
+Remove C14 footprint fields not in symbol.
+Update C14 fields.
+Update C13 unit metadata.
+Remove C13 footprint fields not in symbol.
+Update C13 fields.
+Update C12 unit metadata.
+Remove C12 footprint fields not in symbol.
+Update C12 fields.
+Update C11 unit metadata.
+Remove C11 footprint fields not in symbol.
+Update C11 fields.
+
+
+Info: Total warnings: 0, errors: 0.
