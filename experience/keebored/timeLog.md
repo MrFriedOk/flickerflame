@@ -8,4 +8,5 @@ Time logged working on project. Accurately measured starting 09/05/26
 | route                    | ~8 hr                                | 09/04/26 |
 | reroute, schematic done? | 14:00-22:54                          | 09/05/26 |
 |                          | ~14:00-18:00,18:26-19:00,20:30-20:58 | 09/06/26 |
+|                          | 10:51-14:50,16:07-16:36              | 09/07/26 |
 
