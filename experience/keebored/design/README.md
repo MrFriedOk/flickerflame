@@ -1,5 +1,8 @@
 # Design
 
+## Dimensions
+
+I have outlined a couple of options to choose from and the determining factor in which one depends almost entirely on which display I want to use, the SSD1306 or SSD1309 (both their respective 128x64 variant), as they take up the most space and already allow for room to put the keys and rotary encoder down. Revision 3 was designed with the SSD1306 in mind, though I can make multiple designs if needed, and I likely will do. The most compact design that I have currently is revision 3, I do not want to make it smaller, as it is already likely small enough to comply with my decision to make the keyboard portable. In fact, revision 3 might be *too* small, potentially causing issues if there is not enough weight. Example, using the rotary encoder, and the board being so small that it shifts. This can be countered with weights, or by using a larger design. 
 ## Revision
 Still technically iteration 1 but it is worth mentioning, I have revised the PCB once before (09/05/26) and I am going to do it again. 
 ### Issues
