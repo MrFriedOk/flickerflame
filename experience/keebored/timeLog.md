@@ -11,5 +11,5 @@ Time logged working on project. Accurately measured starting 09/05/26
 | rev3 cont.               | 10:51-14:50,16:07-16:36,18:60-21:55  | 09/07/26 |
 | routing                  | ~1 hr, untracked hours during school | 09/08/26 |
 | rev4                     | ~1 hr                                | 09/11/26 |
-|                          |                                      |          |
+| wide and tall design     | ~1 hr                                | 09/13/26 |
 
