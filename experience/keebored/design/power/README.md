@@ -1,3 +1,7 @@
+# Power
+## Considerations
+### Important!!
+Power rails must be clean enough to share (as an extreme, and from example used in the board) 3v3 with the MCU, an OLED breakout board and hall sensors. Hall sensors get top priority, ~~~***should I consider a separate*** LDO for hall sensing or is 10uF caps near each one enough?~~~ Do NOT use a separate LDO, voltage reference MUST be the same. Consider giving OLED 5v and rely on beefy caps **close** to *every* hall sensor.
 ## Voltage Regulation
 I originally decided to use a buck converter as opposed to a traditional linear voltage regulator. I wanted to keep power consumption as efficient as possible, and with a buck converter, you get proper voltage with a tradeoff of noise. 
 **Design tip:** I do not necessarily need 5V close to LDO, keep this in mind with LED.
