@@ -1,3 +1,11 @@
+# Keys
+Analog hall sensors will be used for key input
+
+## Important!!1
+Data lines for the hall sensors *must* be clean, same with power (*especially* with power). Data lines should have the shortest path to hall sensors possible, they should avoid proximity with high power lines and digital lines (as they will be polling very quickly and loudly).
+
+**To avoid "digital" analog hall sensors**: keep signal clean, route to ADC and configure firmware accordingly, don't use binary inputs.
+
 ### Socket
 I need to find out more but any hall effect switch should just fit on a regular mechanical switch socket, minus the hole in the middle and the metal contacts.
 Using measurements from GATERON docs, I made a footprint in KiCAD using NPTH circle pads with 1.7mm diameter. Do note, the docs give 0.05 tolerance, make sure this measurement is accurate. Worst case, you just glue the switches in place :3 . 

@@ -1,7 +1,5 @@
 # Chips
-## MCU
-### RP2040
-
+## [[mcu|MCU]]
 Considering proximity and sensitivity of traces, [[pinout]] describes pins, their functions, and their use cases in this board. 
 
 --- 
