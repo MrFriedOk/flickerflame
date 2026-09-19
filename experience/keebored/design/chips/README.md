@@ -7,3 +7,6 @@ Considering proximity and sensitivity of traces, [[pinout]] describes pins, thei
 
 ### W25Q128JVSIQ
 16 MB
+
+## ESD
+Along with schottky on VBUS, [TPD4E05U06](https://www.ti.com/product/TPD4E05U06#params) (and similar variants) is used for USB data ESD protection.
