@@ -16,5 +16,6 @@ Time logged working on project. Accurately* measured starting 09/05/26
 | design + documentation + research  | ~2hr 19:50 (end)                     | 09/16/26 |
 | research, design ideas             | 10:00-14:00                          | 09/18/26 |
 | design, revision 4 proposition ◞‸◟ | ~1 hr                                | 09/22    |
--# \*ok so it isn't actually accurate all the time and some info fails to be logged, some entries are tho :3
+
+<sub><sup> *ok so it isn't actually accurate all the time and some info fails to be logged, some entries are tho :3 </sub></sup>
 
