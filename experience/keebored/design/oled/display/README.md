@@ -1,3 +1,6 @@
+# ***IMPORTANT!!!!!1***
+"grayScale.sh" and "pngCByteArray.py" are scripts **NOT** made by me, they were created by an agent. The furthest extent of testing *I* have currently done is compiling all pngs (which were created by a [tool](https://mconverter.eu/convert/mp4/bmp/) online) into a 10fps mp4 which was created with ffmpeg. I do not know if the C byte array is accurate, I have simply viewed them on another [online tool](https://javl.github.io/image2cpp/)
+
 # Display
 I would like to put a display on the negative space left by the shell being long enough to support a rotary encoder above the keys, and wide enough for the keys, as well as some padding because it looks better lol. I intend on a 128x64 OLED display
 The display, as mentioned below, should not be attached directly to the board. I2C will still be used, but I should instead make holes, relative to the given device's dimensions and pinout on the board so I can instead use pogo pins or whatever works best to externally "mount" the display. This adds modularity, as well as convenience. 
