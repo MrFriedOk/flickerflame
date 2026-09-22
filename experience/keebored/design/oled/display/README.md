@@ -1,5 +1,5 @@
 # ***IMPORTANT!!!!!1***
-"grayScale.sh" and "pngCByteArray.py" are scripts **NOT** made by me, they were created by an agent. The furthest extent of testing *I* have currently done is compiling all pngs (which were created by a [tool](https://mconverter.eu/convert/mp4/bmp/) online) into a 10fps mp4 which was created with ffmpeg. I do not know if the C byte array is accurate, I have simply viewed them on another [online tool](https://javl.github.io/image2cpp/)
+"grayScale.sh" and "pngCByteArray.py" are scripts **NOT** made by me, they were created by an agent. The furthest extent of testing *I* have currently done is compiling all pngs (which were created by a [tool online](https://mconverter.eu/convert/mp4/bmp/)) into a 10fps mp4 which was created with ffmpeg. I do not know if the C byte array is accurate, I have simply viewed them on another [online tool](https://javl.github.io/image2cpp/). Further, I do **NOT** own the rights to *Bad Apple!! feat. nomico* by *Alstroemeria Records* **OR** the fan-made silhouette music video by NicoNico (as in nicovideo.jp or niconico.com) user *Anira*. 
 
 # Display
 I would like to put a display on the negative space left by the shell being long enough to support a rotary encoder above the keys, and wide enough for the keys, as well as some padding because it looks better lol. I intend on a 128x64 OLED display
@@ -7,6 +7,10 @@ The display, as mentioned below, should not be attached directly to the board. I
 
 ## Verdict
 I need to choose a display, or both and design multiple PCBs but either way, they must support I2C and must be 128x64. They must also be compatible with the fact that I will not be using direct-to-board display. Thankfully, these displays listed below are *everywhere*, often in breakout boards which is exactly what I am looking for.
+### Decision:
+**I can do both.**
+A wide PCB design was created to accommodate a larger 2.42" OLED, but this brought up a few issues. I could design a board *exclusively* for one or the other, or--because I have an SSD1309 and SSD1306s--I can do *both*. Ordering and designing a daughterboard to hold the SSD1309 could be done, though it is unnecessary. All I'd need to do is design a separate case with a JST socket, which wires directly to the SSD1309 seated on the case. Zero PCB needed, zero externals. All pull-up resistors would be done *before* the JST header on the main board.
+[[]]
 ### SSD1309
 Available in 128x64 and 128x32 variants, this display is often much larger than the SSD1306, with the same resolution. Because the resolution will be low either way, I do not mind if pixel density is lower.
 #### Pros/cons
@@ -20,3 +24,4 @@ By Vishay, this OLED display is 128x64 resolution
 
 May not use, as the connector would be wired directly to the board, adding clutter and inconvenience. I also do not need to use a specific footprint, I can instead use one that already has breakout boards or clones for. 
 
+[back](../../design/README.md)
