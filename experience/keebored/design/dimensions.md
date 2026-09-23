@@ -2,4 +2,4 @@ I have outlined a couple of options to choose from and the determining factor in
 ~~In reality, even without knowing exact dimensions, the keys alone add an absurd amount of space relative to all of the components. There is going to be a *lot* of negative space. What can I do with it?~~ This applies to the original idea, which will be designed, but is so small that many issues come up with size.
 For the current design ideas, ones using larger displays like the SSD1309, the *display* is actually the thing that really determines the size of the board.
 
-[[experience/keebored/design/README|back]]
+[[./README.md|back]]
