@@ -10,4 +10,4 @@ A small, semi-portable USB C keyboard.
 - 1khz (ceiling due to USB restrictions without PHY)
 - Rotary encoder
 ~~- ~55mm wide, ~95mm tall~~
-## [Design](../../design/README)
+## [Design](./design/README.md)
