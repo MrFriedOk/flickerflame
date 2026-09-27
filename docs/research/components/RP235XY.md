@@ -31,4 +31,7 @@ All RP2350 variants have two cores with up to 155mhz clock speed. How much is ne
 
 Is 155mhz enough? Ya lol.
 
+## Flaws
+2.4ghz wireless requires radio of course, RP2350 and its variants do not feature one. Not a dealbreaker however, as an external module can be used, but what does that require of *me*?
+
 

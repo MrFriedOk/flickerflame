@@ -8,11 +8,10 @@ What things do i have access to? What do i already do that may help with this?
 
 
 ## What do i need? 
-Throwing myself straight into building something prolly isnt gonna work, burnout will happen, i wont learn anything, i will get frustrated and i'll surely quit at some point. Patience is important but this is vague so what do i do now? 
+Throwing myself straight into building something isnt going to work, burnout will happen, i wont learn anything, i will get frustrated and i'll surely quit at some point. Patience is important but that's vague, what to do? 
 
-### [Research](./noted)
-I still need to find what makes this typa thing *good*. What do professionals say? what do *i*--with my minimal experience--think? What's comfortable? What actually *works*?
-
+### [Research](./noted/README.md)
+I still need to find what makes a  mouse *good*. What do professionals say? what do *i*--with my minimal experience--think? What's comfortable? What actually *works*?
 
 ### Experience
 Maybe people are born smarter but nobody is born already knowing how to do everything. I need experience with the tools i have and will need to use for this project.
