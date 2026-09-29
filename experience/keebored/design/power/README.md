@@ -22,4 +22,10 @@ SOT-223 LDO, 3V3 to 5V. This is the LDO I am currently using, and the one used i
 This is the buck converter I ~~~am~~~ was using. A formula is given to determine appropriate resistor ohmage to get the desired voltage output.
 
 The formula can be expressed like this, 
-Voltage output is equal to voltage reference (the datasheet shows this as .596) multiplied by resistor 2 (100k is a recommended value) divided by resistor 3 plus one. Wonderfully typed out.
+Voltage output (V_O) is equal to voltage reference (V_r) (the datasheet shows this as .596) multiplied by resistor 2 (100k is a recommended value) divided by resistor 3 plus one. Wonderfully typed out.
+
+$$
+V_O=V_r((R2/R3)+1), somethig like that
+$$
+> [!NOTE] Note,
+> Hey, you do realize you can make math blocks, right? ///v///
