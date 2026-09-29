@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Switches") (type "KiCad") (uri "/home/fried/Documents/KiCad/new/RPI-RP2040-MINIMAL_R3-S1_public/Switches.pretty") (options "") (descr ""))
+)
