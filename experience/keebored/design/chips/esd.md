@@ -17,7 +17,9 @@ TVS diodes are most appropriate for the VBUS line. [^1]TVS diodes act as "transp
 
 
 > [!NOTE] Hey, me! :3
-> Remember the TI TPDxE05U06? Yeah, remebmer how it has different formats, including an industry-standard SOD-523 package? It supports one channel, just use that one
+> Remember the TI TPDxE05U06? Yeah, remebmer how it has different formats, including an industry-standard SOD-523 package? It supports one channel, just use that one.
+
+**Closed, use one channel TVS on VBUS, remove the Schottky.** 
 
 ---
 [back](./README.md)
