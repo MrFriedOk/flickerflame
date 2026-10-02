@@ -1,0 +1,8 @@
+/home/fried/Documents/flickerflame/experience/keebored/keebored/firmware/rp2040-hal-examples/target/thumbv6m-none-eabi/debug/deps/rp_hal_common-0a5c35fffde4f806.d: /home/fried/Documents/flickerflame/experience/keebored/keebored/firmware/rp-hal-common/src/lib.rs /home/fried/Documents/flickerflame/experience/keebored/keebored/firmware/rp-hal-common/src/uart/mod.rs /home/fried/Documents/flickerflame/experience/keebored/keebored/firmware/rp-hal-common/src/uart/common_configs.rs /home/fried/Documents/flickerflame/experience/keebored/keebored/firmware/rp-hal-common/src/uart/utils.rs
+
+/home/fried/Documents/flickerflame/experience/keebored/keebored/firmware/rp2040-hal-examples/target/thumbv6m-none-eabi/debug/deps/librp_hal_common-0a5c35fffde4f806.rmeta: /home/fried/Documents/flickerflame/experience/keebored/keebored/firmware/rp-hal-common/src/lib.rs /home/fried/Documents/flickerflame/experience/keebored/keebored/firmware/rp-hal-common/src/uart/mod.rs /home/fried/Documents/flickerflame/experience/keebored/keebored/firmware/rp-hal-common/src/uart/common_configs.rs /home/fried/Documents/flickerflame/experience/keebored/keebored/firmware/rp-hal-common/src/uart/utils.rs
+
+/home/fried/Documents/flickerflame/experience/keebored/keebored/firmware/rp-hal-common/src/lib.rs:
+/home/fried/Documents/flickerflame/experience/keebored/keebored/firmware/rp-hal-common/src/uart/mod.rs:
+/home/fried/Documents/flickerflame/experience/keebored/keebored/firmware/rp-hal-common/src/uart/common_configs.rs:
+/home/fried/Documents/flickerflame/experience/keebored/keebored/firmware/rp-hal-common/src/uart/utils.rs:

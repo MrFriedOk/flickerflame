@@ -4,13 +4,13 @@
 # Display
 I would like to put a display on the negative space left by the shell being long enough to support a rotary encoder above the keys, and wide enough for the keys, as well as some padding because it looks better lol. I intend on a 128x64 OLED display
 The display, as mentioned below, should not be attached directly to the board. I2C will still be used, but I should instead make holes, relative to the given device's dimensions and pinout on the board so I can instead use pogo pins or whatever works best to externally "mount" the display. This adds modularity, as well as convenience. 
-
+## Notes
+- Although I haven't tested this across different scenarios, the SSD1309 does seem to work just fine using SSD1306 drivers.
 ## Verdict
 I need to choose a display, or both and design multiple PCBs but either way, they must support I2C and must be 128x64. They must also be compatible with the fact that I will not be using direct-to-board display. Thankfully, these displays listed below are *everywhere*, often in breakout boards which is exactly what I am looking for.
 ### Decision:
 **I can do both.**
 A wide PCB design was created to accommodate a larger 2.42" OLED, but this brought up a few issues. I could design a board *exclusively* for one or the other, or--because I have an SSD1309 and SSD1306s--I can do *both*. Ordering and designing a daughterboard to hold the SSD1309 could be done, though it is unnecessary. All I'd need to do is design a separate case with a JST socket, which wires directly to the SSD1309 seated on the case. Zero PCB needed, zero externals. All pull-up resistors would be done *before* the JST header on the main board.
-[[]]
 ### SSD1309
 Available in 128x64 and 128x32 variants, this display is often much larger than the SSD1306, with the same resolution. Because the resolution will be low either way, I do not mind if pixel density is lower.
 #### Pros/cons

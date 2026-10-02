@@ -1,0 +1,3 @@
+cargo:rustc-link-search=/home/fried/Documents/flickerflame/experience/keebored/keebored/firmware/rp2040-hal-examples/target/thumbv6m-none-eabi/release/build/rp2040-pac-2d715e2d7177ed39/out
+cargo:rerun-if-changed=device.x
+cargo:rerun-if-changed=build.rs

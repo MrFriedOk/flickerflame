@@ -1,0 +1,9 @@
+/home/fried/Documents/flickerflame/experience/keebored/keebored/firmware/rp2040-hal-examples/target/thumbv6m-none-eabi/debug/deps/embedded_io-cb50f68e74a23d55.d: /home/fried/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embedded-io-0.7.1/src/lib.rs /home/fried/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embedded-io-0.7.1/src/impls/mod.rs /home/fried/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embedded-io-0.7.1/src/impls/slice_mut.rs /home/fried/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embedded-io-0.7.1/src/impls/slice_ref.rs /home/fried/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embedded-io-0.7.1/src/../README.md
+
+/home/fried/Documents/flickerflame/experience/keebored/keebored/firmware/rp2040-hal-examples/target/thumbv6m-none-eabi/debug/deps/libembedded_io-cb50f68e74a23d55.rmeta: /home/fried/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embedded-io-0.7.1/src/lib.rs /home/fried/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embedded-io-0.7.1/src/impls/mod.rs /home/fried/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embedded-io-0.7.1/src/impls/slice_mut.rs /home/fried/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embedded-io-0.7.1/src/impls/slice_ref.rs /home/fried/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embedded-io-0.7.1/src/../README.md
+
+/home/fried/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embedded-io-0.7.1/src/lib.rs:
+/home/fried/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embedded-io-0.7.1/src/impls/mod.rs:
+/home/fried/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embedded-io-0.7.1/src/impls/slice_mut.rs:
+/home/fried/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embedded-io-0.7.1/src/impls/slice_ref.rs:
+/home/fried/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embedded-io-0.7.1/src/../README.md:

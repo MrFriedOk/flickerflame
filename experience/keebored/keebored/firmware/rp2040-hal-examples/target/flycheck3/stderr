@@ -1,0 +1,8 @@
+    Blocking waiting for file lock on package cache
+    Updating crates.io index
+error: failed to select a version for the requirement `embedded-graphics = "^0.23"`
+candidate versions found which didn't match: 0.8.2, 0.8.1, 0.8.0, ...
+location searched: crates.io index
+required by package `rp2040-hal-examples v0.1.0 (/home/fried/Documents/flickerflame/experience/keebored/keebored/firmware/rp2040-hal-examples)`
+help: if you are looking for the prerelease package it needs to be specified explicitly
+    embedded-graphics = { version = "0.7.0-beta.2" }
