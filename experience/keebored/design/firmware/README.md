@@ -25,4 +25,17 @@ A few options that immediately come to mind are available:
 	- Unecessary
 	- No
 
+> [!NOTE] Note,
+> Idk why I made this
+
+```mermaid
+radar-beta
+  title Weight Chart
+  axis docs["Docs"], efficiency["Efficiency"], ease["Ease"]
+  curve rust["Rust"]{80, 95, 50}
+  curve python["Python"]{80, 40, 85}
+  max 100
+  min 0
+```
+
 [back](../../README.md)
