@@ -1,0 +1,10 @@
+/home/fried/Documents/flickerflame/experience/keebored/keebored/firmware/target/release/deps/rp_hal_common-cf84090297772e9e.d: /home/fried/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rp-hal-common-0.1.0/src/lib.rs /home/fried/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rp-hal-common-0.1.0/src/uart/mod.rs /home/fried/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rp-hal-common-0.1.0/src/uart/common_configs.rs /home/fried/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rp-hal-common-0.1.0/src/uart/utils.rs
+
+/home/fried/Documents/flickerflame/experience/keebored/keebored/firmware/target/release/deps/librp_hal_common-cf84090297772e9e.rlib: /home/fried/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rp-hal-common-0.1.0/src/lib.rs /home/fried/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rp-hal-common-0.1.0/src/uart/mod.rs /home/fried/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rp-hal-common-0.1.0/src/uart/common_configs.rs /home/fried/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rp-hal-common-0.1.0/src/uart/utils.rs
+
+/home/fried/Documents/flickerflame/experience/keebored/keebored/firmware/target/release/deps/librp_hal_common-cf84090297772e9e.rmeta: /home/fried/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rp-hal-common-0.1.0/src/lib.rs /home/fried/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rp-hal-common-0.1.0/src/uart/mod.rs /home/fried/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rp-hal-common-0.1.0/src/uart/common_configs.rs /home/fried/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rp-hal-common-0.1.0/src/uart/utils.rs
+
+/home/fried/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rp-hal-common-0.1.0/src/lib.rs:
+/home/fried/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rp-hal-common-0.1.0/src/uart/mod.rs:
+/home/fried/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rp-hal-common-0.1.0/src/uart/common_configs.rs:
+/home/fried/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rp-hal-common-0.1.0/src/uart/utils.rs:
