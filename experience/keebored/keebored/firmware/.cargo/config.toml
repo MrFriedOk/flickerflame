@@ -1,0 +1,26 @@
+# Cargo Configuration for the https://github.com/rp-rs/rp-hal.git repository.
+#
+# You might want to make a similar file in your own repository if you are
+# writing programs for Raspberry Pi microcontrollers.
+#
+
+[build]
+# set target to match cortex
+target = "thumbv6m-none-eabi"
+
+# Target specific options, for the rp2040 architecture
+[target.thumbv6m-none-eabi]
+# pass options to rustc, tell linker given by cortex-m-rt to link.
+# MAKE SURE YOU SPECIFY AN ENTRY IN main.rs, stupid mistake by me1
+
+# disable loop-vectorizer, cortex doesn't support simd.
+rustflags = [
+    "-C", "no-vectorize-loops",
+    "-C", "link-arg=-Tlink.x" #use memory.x
+]
+
+# flash over usb,
+runner = "picotool load --update --verify --execute -t elf"
+
+# for swd probes,
+# runner = "probe-rs run --chip RP2040"

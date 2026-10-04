@@ -2,7 +2,7 @@
 The keyboard will be controlled by embedded code, I need to know how to write embedded code.
 
 ## Language
-I have decided to use Rust. I also must decide on an edition. I do not know what factors would influence which edition I use. As far as I know, there isn't a downside to using the latest edition, crates are seemingly compatible with later editions, Rust aims for this philosophy. 
+I have decided to use **Rust**. I also must decide on an edition. I do not know what factors would influence which edition I use. As far as I know, there isn't a downside to using the latest edition, crates are seemingly compatible with later editions, Rust aims for this philosophy. 
 ## Experience
 **What can I do now**? I have many opportunities to learn. RP2040 devboard ensures I can get experience with the MCU I will use for the keyboard. Access to OLED teaches me how I will use it in the keyboard. I also use arch btw
 ## Requirements

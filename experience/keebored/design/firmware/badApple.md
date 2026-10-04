@@ -8,7 +8,7 @@ I need to figure out how (using Rust) to convert a series of pngs I have, which 
 > SSD1309 can be driven using the [same drivers as the SSD1306](../oled/display/README.md). 
 ## Crates
 What crates will be used, outline some that may work.
-- [`image`](https://docs.rs/image/latest/image/), provides image decoding, encoding and manipulation. 
+- [`image`](https://docs.rs/image/latest/image/), version 0.25.10 provides image decoding, encoding and manipulation. 
 	- **Notable type aliases, functions, traits, structs, modules
 		- `Luma`, grayscale pixel
 		- 
