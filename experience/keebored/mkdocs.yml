@@ -1,0 +1,6 @@
+site_name: My Docs
+docs_dir: ./design
+theme:
+  name: readthedocs
+nav:
+  - Home: ../README.md
