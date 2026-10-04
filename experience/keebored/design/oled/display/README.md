@@ -1,5 +1,7 @@
 # ***IMPORTANT!!!!!1***
 "grayScale.sh" and "pngCByteArray.py" are scripts **NOT** made by me, they were created by an agent. The furthest extent of testing *I* have currently done is compiling all pngs (which were created by a [tool online](https://mconverter.eu/convert/mp4/bmp/)) into a 10fps mp4 which was created with ffmpeg. I do not know if the C byte array is accurate, I have simply viewed them on another [online tool](https://javl.github.io/image2cpp/). Further, I do **NOT** own the rights to *Bad Apple!! feat. nomico* by *Alstroemeria Records* **OR** the fan-made silhouette music video by NicoNico (as in nicovideo.jp or niconico.com) user *Anira*. 
+> [!NOTE] j
+> I probably should just not have it in the repo
 
 # Display
 I would like to put a display on the negative space left by the shell being long enough to support a rotary encoder above the keys, and wide enough for the keys, as well as some padding because it looks better lol. I intend on a 128x64 OLED display

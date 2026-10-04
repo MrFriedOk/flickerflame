@@ -2,7 +2,7 @@
 ### Important!!
 Power rails must be clean enough to share (as an extreme, and from example used in the board) 3v3 with the MCU, an OLED breakout board and hall sensors. Hall sensors get top priority, ~~~***should I consider a separate*** LDO for hall sensing or is 10uF caps near each one enough?~~~ Do NOT use a separate LDO, voltage reference MUST be the same. Consider giving OLED 5v and rely on beefy caps **close** to *every* hall sensor.
 ## Overview
-The board will consist of two power rails, +5V, given by [VBUS](usb.md) and +3V3 coming from the LDO. Two layer board, both planes being GND, plenty of room for ground.
+The board will consist of two power rails, +5V, given by [VBUS](usb.md#VBUS) and +3V3 coming from the LDO. Two layer board, both planes being GND, plenty of room for ground.
 
 ## Voltage Regulation
 **Step 5V VBUS down to 3V3**
