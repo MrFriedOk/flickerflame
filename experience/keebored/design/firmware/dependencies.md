@@ -1,7 +1,12 @@
 # Dependencies
 What to include in the [`Cargo.toml`](../../keebored/firmware/Cargo.toml)
 - [`rp2040-hal`](https://docs.rs/rp2040-hal/latest/rp2040_hal/), version 0.12.0, HAL (hardware abstraction layer) for RP2040. 
+	- **Features**
+		- `binary-info`, `critical-selection-impl`, `rt`, `defmt`
 - `embedded-hal`, version 1.0.0, HAL for embedded systems
+- `critical-section`, version 1.2.0, critical section, also required
+- `static_cell`, version 2.1.1, requires `portable-atomic`
+- `portable-atomic`, version 1.7.0, feature `critical-selection`
 - `image`, will not be used on the board, good for converting images on a PC ![badApple](badApple.md#Crates)
 - `cortex-m`, version 0.7.9, low level access to cortex-m processors.
 	- ![memory.x](memory.x.md), reference addresses for linkers

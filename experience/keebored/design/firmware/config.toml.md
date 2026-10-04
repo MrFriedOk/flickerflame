@@ -3,6 +3,10 @@ Configuring my package can greatly improve efficiency. For example, using `runne
 
 Here is an example influenced by [the rp2040-hal examples](https://github.com/rp-rs/rp-hal/blob/main/rp2040-hal-examples/.cargo/config.toml),
 
+> [!NOTE] Runner
+> Make sure to use `cargo run` to ensure the runner is used.
+
+
 ```toml
 #
 # Cargo Configuration for the https://github.com/rp-rs/rp-hal.git repository.

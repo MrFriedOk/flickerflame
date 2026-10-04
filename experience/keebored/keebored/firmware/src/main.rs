@@ -23,7 +23,7 @@ use embedded_hal::delay::DelayNs;
 use embedded_hal::digital::OutputPin;
 //
 // future me with keyboard, use W25Q080 bootloader, doesnt matter too much just rember
-#[link_section = ".boot2"]
+#[unsafe(link_section = ".boot2")]
 #[used]
 pub static BOOT2: [u8; 256] = rp2040_boot2::BOOT_LOADER_GENERIC_03H;
 
@@ -66,7 +66,7 @@ fn main() -> ! {
     );
 
     // Configure GPIO25 as an output
-    let mut led_pin = pins.gpio25.into_push_pull_output();
+    let mut led_pin = pins.gpio17.into_push_pull_output();
     loop {
         led_pin.set_high().unwrap();
         timer.delay_ms(500);
