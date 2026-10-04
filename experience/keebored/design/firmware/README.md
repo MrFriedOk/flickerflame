@@ -3,6 +3,12 @@ The keyboard will be controlled by embedded code, I need to know how to write em
 
 ## Language
 I have decided to use **Rust**. I also must decide on an edition. I do not know what factors would influence which edition I use. As far as I know, there isn't a downside to using the latest edition, crates are seemingly compatible with later editions, Rust aims for this philosophy. 
+### Edition
+- #### 2024
+	- One issue on `#[link_section = ".boot2"]`, simply requires it to be called unsafe
+	- also just works :/
+- #### 2021
+	- It jut works, idk
 ## Experience
 **What can I do now**? I have many opportunities to learn. RP2040 devboard ensures I can get experience with the MCU I will use for the keyboard. Access to OLED teaches me how I will use it in the keyboard. I also use arch btw
 ## Requirements
