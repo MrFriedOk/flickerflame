@@ -10,17 +10,40 @@
 // list imports, make aliases
 use panic_halt as _; // must be mentioned or the it wont be linked
 
+//don't need to type rp2040-hal every time, this firmware deals with 1 mcu lol
+
 use rp2040_hal as hal;
+
 //use core::fmt::Write;
 //use hal::fugit::RateExtU32;
 //use hal::Clock;
 
-// //don't need to type rp2040-hal every time, this firmware deals with 1 mcu lol
 // list traits
 use hal::pac;
 
+use embedded_graphics::{
+    image::{Image, ImageRaw},
+    pixelcolor::BinaryColor,
+    prelude::*,
+};
 use embedded_hal::delay::DelayNs;
 use embedded_hal::digital::OutputPin;
+
+#[cfg(feature = "async")]
+use hal::gpio::{FunctionI2C, Pin};
+use hal::{
+    I2C,
+    fugit::RateExtU32,
+    gpio::bank0::{Gpio22, Gpio23},
+    i2c::Controller,
+};
+
+use embassy_executor::Executor;
+use embedded_hal_async::i2c::I2C;
+
+use ssd1306::{I2CDisplayInterface, Ssd1306, prelude::*};
+use tinybmp::RawBmp;
+
 //
 // future me with keyboard, use W25Q080 bootloader, doesnt matter too much just rember
 #[unsafe(link_section = ".boot2")]

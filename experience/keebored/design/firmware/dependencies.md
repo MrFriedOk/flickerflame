@@ -4,6 +4,10 @@ What to include in the [`Cargo.toml`](../../keebored/firmware/Cargo.toml)
 	- **Features**
 		- `binary-info`, `critical-selection-impl`, `rt`, `defmt`
 - `embedded-hal`, version 1.0.0, HAL for embedded systems
+- `embedded-graphics`, version 0.8.2, draw graphics without buffers
+	- Can draw "primitives" like shapes and stuff
+	- Easy to draw raw data images
+	- Text and monospace fonts
 - `critical-section`, version 1.2.0, critical section, also required
 - `static_cell`, version 2.1.1, requires `portable-atomic`
 - `portable-atomic`, version 1.7.0, feature `critical-selection`

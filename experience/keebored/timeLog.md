@@ -19,6 +19,7 @@ Time logged working on project. Accurately* measured starting 09/05/26
 | idk, documented ESD, fixed some stuff | ~1 hr                                | 09/29/26          |
 | mostly firmware, documentation        | ~4 hr                                | 09/30/26-10/02/26 |
 | firmware stuff, design sketch         | ~3 hr                                | 10/03/26          |
+| firmware, config, blink led           | ~4 hr                                | 10/04/26          |
 
 <sub><sup> *ok so it isn't actually accurate all the time and some info fails to be logged, some entries are tho :3 </sub></sup>
 
