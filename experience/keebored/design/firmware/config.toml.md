@@ -26,7 +26,7 @@ target = "thumbv6m-none-eabi"
 # disable loop-vectorizer, cortex doesn't support simd. 
 rustflags = [
     "-C", "no-vectorize-loops",
-    "-C", "link-arg=-Tmemory.x" #use memory.x
+    "-C", "link-arg=-Tlink.x" #use link.x, make sure build.rs is there
 ]
 
 # flash over usb,

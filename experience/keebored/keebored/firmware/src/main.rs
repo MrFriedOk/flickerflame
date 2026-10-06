@@ -89,27 +89,6 @@ fn main() -> ! {
 
     loop{
         //poo
-
-        let mut interface = I2CDisplayInterface::new(i2c);
-
-        let mut display = Ssd1306::new(
-            interface,
-            DisplaySize128x64,
-            DisplayRotation::Rotate0,
-        ).into_terminal_mode();
-        display.init().unwrap();
-        display.clear().unwrap();
-
-        // Spam some characters to the display
-        for c in 97..123 {
-            let _ = display.write_str(unsafe { core::str::from_utf8_unchecked(&[c]) });
-        }
-        for c in 65..91 {
-            let _ = display.write_str(unsafe { core::str::from_utf8_unchecked(&[c]) });
-        }
-
-        // The `write!()` macro is also supported
-        write!(display, "Hello, {}", "world");
     }
 }
 
