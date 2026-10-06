@@ -1,12 +1,6 @@
-//fn main() {
-//    println!("Hello, world!");
-//}
-//
 #![no_std] //prevent standard lib from linking, useful for non-OS stuff
 #![no_main] // use core::ops::End; where did this come from??
 
-//disabled default 'entry point', i will define this later in .cargo/config.toml
-//
 // list imports, make aliases
 use panic_halt as _; // must be mentioned or the it wont be linked
 
@@ -21,15 +15,7 @@ use rp2040_hal as hal;
 // list traits
 use hal::pac;
 
-use embedded_graphics::{
-    image::{Image, ImageRaw},
-    pixelcolor::BinaryColor,
-    prelude::*,
-};
-use embedded_hal::delay::DelayNs;
-use embedded_hal::digital::OutputPin;
-
-#[cfg(feature = "async")]
+//[cfg(feature = "async")]
 use hal::gpio::{FunctionI2C, Pin};
 use hal::{
     I2C,
@@ -37,12 +23,8 @@ use hal::{
     gpio::bank0::{Gpio22, Gpio23},
     i2c::Controller,
 };
-
-use embassy_executor::Executor;
-use embedded_hal_async::i2c::I2C;
-
-use ssd1306::{I2CDisplayInterface, Ssd1306, prelude::*};
-use tinybmp::RawBmp;
+use core::fmt::Write;
+use ssd1306::{mode::TerminalMode, prelude::*, I2CDisplayInterface, Ssd1306};
 
 //
 // future me with keyboard, use W25Q080 bootloader, doesnt matter too much just rember
@@ -52,6 +34,8 @@ pub static BOOT2: [u8; 256] = rp2040_boot2::BOOT_LOADER_GENERIC_03H;
 
 // crystal frequency, 12mhz is standard
 const XTAL_FREQ_HZ: u32 = 12_000_000u32;
+
+mod i2c;
 
 // macro entry
 // cortex-m start-up code calls this as soon as global vars and spinlocks initialised
@@ -88,12 +72,67 @@ fn main() -> ! {
         &mut pac.RESETS,
     );
 
-    // Configure GPIO25 as an output
-    let mut led_pin = pins.gpio17.into_push_pull_output();
-    loop {
-        led_pin.set_high().unwrap();
-        timer.delay_ms(500);
-        led_pin.set_low().unwrap();
-        timer.delay_ms(500);
+    let sda_pin: Pin<_, FunctionI2C, _> = pins.gpio22.reconfigure();
+    let scl_pin: Pin<_, FunctionI2C, _> = pins.gpio23.reconfigure();
+    // let not_an_scl_pin: Pin<_, FunctionI2C, PullUp> = pins.gpio20.reconfigure(); 
+    // Create the I²C drive, using the two pre-configured pins. This will fail
+    // at compile time if the pins are in the wrong mode, or if this I²C
+    // peripheral isn't available on these pins!
+    let i2c = hal::I2C::i2c1(
+        pac.I2C1,
+        sda_pin,
+        scl_pin, // Try `not_an_scl_pin` here
+        400.kHz(),
+        &mut pac.RESETS,
+        &clocks.system_clock,
+    );
+
+    loop{
+        //poo
+
+        let mut interface = I2CDisplayInterface::new(i2c);
+
+        let mut display = Ssd1306::new(
+            interface,
+            DisplaySize128x64,
+            DisplayRotation::Rotate0,
+        ).into_terminal_mode();
+        display.init().unwrap();
+        display.clear().unwrap();
+
+        // Spam some characters to the display
+        for c in 97..123 {
+            let _ = display.write_str(unsafe { core::str::from_utf8_unchecked(&[c]) });
+        }
+        for c in 65..91 {
+            let _ = display.write_str(unsafe { core::str::from_utf8_unchecked(&[c]) });
+        }
+
+        // The `write!()` macro is also supported
+        write!(display, "Hello, {}", "world");
     }
+}
+
+
+
+/// This is a list of references to our table entries
+///
+/// They must be in the `.bi_entries` section as we tell picotool the start and
+/// end addresses of that section.
+#[unsafe(link_section = ".bi_entries")]
+#[cfg(all(feature = "binary-info", target_os = "none"))]
+#[used]
+pub static PICOTOOL_ENTRIES: [rp_binary_info::EntryAddr; 4] = [
+    rp_binary_info::rp_program_name!(c"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"),
+    rp_binary_info::rp_cargo_version!(),
+    rp_binary_info::rp_binary_end!(__flash_binary_end),
+    rp_binary_info::int!(
+        rp_binary_info::make_tag(b"JP"),
+        0x0000_0001,
+        0x12345678
+    ),
+];
+
+unsafe extern "C" {
+    unsafe static __flash_binary_end: u32;
 }

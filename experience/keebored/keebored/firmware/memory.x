@@ -16,7 +16,7 @@ RAM : ORIGIN = 0x20000000, LENGTH = 264K
 }
 /*
 thanks to
-https://github.com/rp-rs/rp-hal/blob/main/rp2040-hal-examples/memory.x
+https://github.com/rp-rs/rp-hal/blob/main/rp2040-hal-examples/memory.x
 */
 EXTERN(BOOT2_FIRMWARE)
 
@@ -34,6 +34,13 @@ SECTIONS {
         KEEP(*(.boot2));
     } > BOOT2
 } INSERT BEFORE .text;
+
+
+
+
+/*
+binary_info
+*/
 
 SECTIONS {
     /* ### Boot ROM info
