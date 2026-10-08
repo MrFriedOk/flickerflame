@@ -9,7 +9,7 @@ On a single I2C bus, multiple devices can be connected, only one device can actu
 > Yes. Just like SPI chip select, I2C uses addresses and busses can be shared using a wrapper like those given by `embedded-hal-bus`. These wrappers let each driver communicate to a device on the (shared) bus as if it were an independent bus. 
 > Wrappers 'lock' a bus temporarily, preventing communication until the driver (which is attached to an I2C address) finishes a task.
 ## Speed
-RP2040 offers two speeds, 100kb/s or 400kb/s. 1mb/s is available as well but will not be needed.
+RP2040 offers three speeds, 100kb/s or 400kb/s. 1mb/s, 'Fast Mode Plus' is available as well but will not be needed.
 ### How much data transfer?
 Each frame uses 1024 byes (128x64) and factoring in the *worst case* (30fps _Bad Apple!!_), this is about 260 kb/s. Can't use slow speed but 400kb/s is more than enough.
 ## Mode

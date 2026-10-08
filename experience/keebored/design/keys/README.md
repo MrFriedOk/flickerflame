@@ -8,9 +8,9 @@ Data lines for the hall sensors *must* be clean, same with power (*especially* w
 
 ### Socket
 I need to find out more but any hall effect switch should just fit on a regular mechanical switch socket, minus the hole in the middle and the metal contacts.
-Using measurements from GATERON docs, I made a footprint in KiCAD using NPTH circle pads with 1.7mm diameter. Do note, the docs give 0.05 tolerance, make sure this measurement is accurate. Worst case, you just glue the switches in place :3 . 
+Using measurements from [GATERON docs](https://ueeshop.ly200-cdn.com/u_file/UPAW/UPAW819/2506/10/file/GATERONMagneticJadeSwitch-KS-20TF10B045NW-Y89.pdf), I made a footprint in KiCAD using NPTH circle pads with 1.7mm diameter. Do note, the docs give 0.05 tolerance, make sure this measurement is accurate. Worst case, you just glue the switches in place :3 . 
 #### Notes
-Using any given HE switch, not custom, there will not be enough space for an HS or any electrical components really (besides led of course), I have moved the HS, caps and resistors behind the key with just the led in the front. HS alignment is not affected, but is it ok to just put an HS behind the board? riskable's custom "void switches" solve this problem by making room for LED and the HS, the only issue being that I do not have access to a 3D printer.
+Using any given HE switch, not custom, there will not be enough space for an HS or any electrical components really (besides LED of course), I have moved the HS, caps and resistors behind the key with just the led in the front. HS alignment is not affected, but is it ok to just put an HS behind the board? riskable's custom "void switches" solve this problem by making room for LED and the HS, the only issue being that I do not have access to a 3D printer.
 **Spacing**, keys should be 19.05mm apart. Center to center or corner to corner. I have adjusted my grid to fit this
 
 --- 
